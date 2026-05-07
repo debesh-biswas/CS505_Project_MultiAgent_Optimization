@@ -1,0 +1,11 @@
+pyautogen
+openai
+datasets
+deap
+numpy
+pandas
+python-dotenv
+requests
+scikit-learn
+tiktoken
+tqdm

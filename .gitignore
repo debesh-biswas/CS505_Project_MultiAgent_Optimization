@@ -1,0 +1,106 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+junit.xml
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---- IDEs / editors ----
+.vscode/
+.idea/
+*.iml
+.claude/
+**/.claude/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Secrets ----
+.env
+.env.*
+*.key
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Project-specific caches / outputs ----
+# Hugging Face cache folders (large, reproducible)
+hf_cache/
+**/hf_cache/
+
+# Hugging Face default cache dirs (if created inside the repo)
+.cache/
+**/.cache/
+.cache/huggingface/
+**/.cache/huggingface/
+
+# Xet staging/logs cache (if present)
+xet/
+
+# Experiment outputs
+runs/
+**/runs/
+
+# JSON run artifacts
+run_latest.json
+**/run_latest.json
+*_run.json
+**/*_run.json
+*_best_config.json
+**/*_best_config.json
+smbo_results.json
+**/smbo_results.json
+
+# Test folders (ignored by request)
+tests/
+**/tests/
+
+# Local scratch / notes
+Unused/
+**/Unused/
+
+# TravelPlannerDB subtree (often vendored/large)
+TravelPlannerDB/
+**/TravelPlannerDB/
+
+# Common local artifacts
+*.sqlite
+*.db
